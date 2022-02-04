@@ -13,9 +13,9 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Source />}></Route>
         </Routes>
-        {/* <Routes>
+        <Routes>
           <Route exact path="/othercolors" element={<OtherColors />}></Route>
-        </Routes> */}
+        </Routes>
       </Router>
     </>
   );
